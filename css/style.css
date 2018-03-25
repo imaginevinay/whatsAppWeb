@@ -1,0 +1,288 @@
+input {
+      padding:10px;
+      font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+  }
+
+  .chat-row{
+      height: 60px;
+  }
+
+.col-md-8{
+    height: 100vh;
+    background-color: #F8F9FB;
+}
+
+.under-text{
+    width: 60%;
+}
+.fa-check{
+    color:#929fa6; 
+   
+}
+.name{
+    font-weight: 400;
+}
+
+.under-text-bar{
+    width: 50%;
+    margin: 40px 0;
+}
+.side-show img{
+    margin-top: 10%;
+}
+
+.space{
+    margin-right: 10px;
+}
+.box{
+    height: 4em;
+    background-color: #eeeeee; 
+    
+}
+
+.col-3{
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.col-md-4{
+    border-right: 1px solid #E5E5E5;
+    padding-right: 0;
+}
+
+.box img{
+    padding: 10px;
+    width: 60px;
+}
+
+.box .icons {
+    margin-top: 20px;
+    color: #80878A;
+    -webkit-text-stroke: 100px #EEEEEE;
+}
+.svg-inline--fa{
+    font-size: 20px;
+}
+.search {
+    background-color: #F8F9FB;
+    padding: 10px 15px;
+}
+.search input{
+    height: 30px;
+    font-size: 13px;
+}
+a img{
+    width: 50px;
+}
+.col-2{
+    padding-right: 20px;
+}
+ .col-6{
+    padding-right: 0;
+    padding-left: 5px;
+}
+.col-2{
+    padding-left: 0;
+}
+a{
+    font-style: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+.col-2 time{
+    font-size: 14px;
+}
+.col-2 .badge{
+    background-color: #09d261;
+    color: white;
+    border-radius: 50%;
+}
+.text-muted .link {
+    color: #09d261;
+    font-weight: 600;
+}
+.side-show .under-image{
+    color: #4b5961;
+    font-weight: 300;
+    font-size: 36px;
+    margin: 20px 0;
+}
+.side-show p,.space{
+    font-size: 14px;
+    color: #929fa6;
+    line-height: 20px;
+}
+
+.chat-bg{
+    background-image: url("../img/chat-bg.png");
+    padding-left: 0;
+}
+
+
+.list-group-item{
+    line-height:20px;
+    margin-top: 30px;
+    float: left;
+}
+.list-group-item:nth-child(odd){
+    float: left;
+    text-align: left;
+    
+}
+.list-group-item:nth-child(odd) time{
+    float: right;
+}
+
+.list-group-item:nth-child(even) time{
+    float: left;
+}
+
+.list-group-item:nth-child(even){
+    float: left;
+    text-align: right;
+    background-color: #DCF8C6;
+    
+}
+.list-group-item:last-child{
+    margin-bottom: 50px;
+}
+.chats .row:hover{
+ background-color: #E5E5E5;
+}
+
+.type {
+   
+    padding: 15px 0;
+}
+
+.col-8{
+    margin-left: 0;
+    margin-right: 0;
+}
+.type input{
+    height: 30px;
+    font-size: 13px;
+}
+.em-smiley{
+    margin: 19px 0 0 19px;
+}
+
+
+
+.profile{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-top: 65px;
+}
+.profile-box{
+    height: 7em;
+    background-color: #00BFA5;
+}
+.fa-arrow-left{
+    
+    margin:70px 60px 60px 40px;
+    color: white;
+
+}
+
+.name-box{
+    
+    height: 6em;
+}
+
+.info-box{
+    height: 5em;
+    width: 100%;
+    background-color: #F7F7F7;
+}
+.info-box div{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 15px;
+    color: #4b5961;
+    font-weight: 400;
+}
+#name, #about{
+    color: #09d261;
+}
+
+.image-box img{
+    
+    display: block;
+    width: 200px;    
+    padding-top:25px;
+    margin : auto;
+
+}
+.image-box{
+    
+    display: block;
+    height: 16em;
+    background-color: #F7F7F7;
+}
+.fa-edit {
+    color: #80878A;
+}
+  
+
+
+
+@media screen 
+  and (min-width: 1200px) 
+  and (max-width: 1600px) 
+  { 
+    .list-group-item:last-child{
+        margin-bottom: 95px;
+    }
+
+}
+
+
+@media (max-width: 767px) { 
+    .screen-reduce{
+        height: 100vh;
+    }
+    
+    .box .float-left img{
+        margin-left: 25px;
+    }
+    .col-md-8{    
+        padding-right: 0;
+    }
+    .list-group-item{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+ }
+
+ @media (max-width: 420px) { 
+     
+    .screen-reduce{
+        display:none;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .list-group-item{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+    .box .float-left img{
+        margin-left: 25px;
+    }
+    .col-md-8{    
+        padding-right: 0;
+    }
+    
+  }
