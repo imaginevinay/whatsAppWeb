@@ -140,8 +140,12 @@ a:hover{
     text-align: right;
     background-color: #DCF8C6;
 }
+#color{
+    float: left;
+    background-color:white;
+}
 .list-group-item:last-child{
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 .chats .row:hover{
     background-color: #E5E5E5;
@@ -212,7 +216,7 @@ a:hover{
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
     .list-group-item:last-child{
-        margin-bottom: 95px;
+        margin-bottom: 60px;
    }
 }
 @media (max-width: 767px) {
@@ -241,4 +245,7 @@ a:hover{
     .col-md-8{
         padding-right: 0;
    }
+   .list-group-item:last-child{
+    margin-bottom: 10px;
+}
 }
