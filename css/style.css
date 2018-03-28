@@ -57,6 +57,7 @@ input {
     width: 60px;
 }
 .box .icons {
+    font-size : 1em ; 
     margin-top: 10px;
     color: #80878A;
     -webkit-text-stroke: 100px #EEEEEE;
